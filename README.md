@@ -1,5 +1,5 @@
 ### Devices:
-* Sony KDL-42EX440 LCD TV
+* Sony Bravia KDL-42EX440 LCD TV
 * Raspberry Pi 4 Model B (2GB) 
     * OS: Raspberry Pi OS (Raspbian) 11 bullseye
 
