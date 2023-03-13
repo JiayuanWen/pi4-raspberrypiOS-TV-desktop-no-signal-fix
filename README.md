@@ -1,11 +1,11 @@
 ### Devices:
 * Sony Bravia KDL-42EX440 LCD TV
-* Raspberry Pi 4 Model B (2GB) 
+* Raspberry Pi 4 Model B (2GB)
     * OS: Raspberry Pi OS (Raspbian) 11 bullseye
 
 
 ### Problem:
-When connecting Pi 4 to TV via Micro-HDMI to HDMI, the boot-loader and initial splash shows up. As soon as the desktop loads, the TV shows no signal. 
+When connecting Pi 4 to TV via Micro-HDMI to HDMI, the boot-loader and initial splash shows up. As soon as the desktop loads, the TV shows no signal.
 
 ### Solution:
 Raspberry Pi OS (Raspbian) 11 uses KMS driver by default, which is not compatable with this TV model. We need to switch to FKMS drivers.
